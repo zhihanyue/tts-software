@@ -96,3 +96,31 @@ Pron 标签用于插入指定的音。程序将严格按照被指定的音素的
 ```
 <pron sym="h eh 1 l ow & w er 1 l d"> ~~~~(>_<)~~~~ 为什么读不到我，我被无视了... </pron>
 ```
+
+
+### 读法控制（在测试“·实例”前请切换到中文语音库）
+1.语言：<lang langid="X">
+    Lang标签用于改变语言。当标签为空时，它将会作用于所有的该标签后面的文本；当它不为空时，它将会应用于标签内的内容。
+
+实例
+
+```
+Hello.
+<lang langid="409">
+   Hello.
+</lang>
+```
+
+2.词性：`<partofsp part="词性">`
+    Partofsp标签用于分析词性。比如朗读某些专有名词，系统可能无法分析到它是个名词，您应该用这种方式指出它。词性可以为 "Noun", "Verb", "Modifier", "Function", "Interjection","Unknown"。
+
+3.格式：`<context id="date_mdy等">`
+Context标签能让程序以确切的格式朗读文字，如货币、日期等。此标签不能为空。
+
+实例
+
+```
+<context id="date_dmy"> 04/05/02 </context>
+<context id="date_mdy"> 04/05/02 </context>
+<context id="date_ymd"> 04/05/02 </context>
+```
