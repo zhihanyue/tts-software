@@ -1,6 +1,6 @@
 # 语音朗读助手
 
-![img](https://github.com/yuezhihan/tts-software/blob/master/screenshot.png){width="400px"}
+![img](https://github.com/yuezhihan/tts-software/blob/master/screenshot.png){:width="400px"}
 
 ## 源代码编译注意事项
 
