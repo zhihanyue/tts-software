@@ -1,5 +1,7 @@
 # 语音朗读助手
 
+![img](https://github.com/yuezhihan/tts-software/blob/master/screenshot.png)
+
 ## 源代码编译注意事项
 
 1. 要安装Microsoft Speech SDK，并注册其类库，才能正常编译。
